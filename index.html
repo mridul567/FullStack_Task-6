@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-6</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .main{
+            display: inline-flex;
+        }
+        .card{
+            width: 35%;
+            background-color: white;
+            border-radius: 5px;
+            margin: 15px;
+            text-align: justify;
+            padding: 10px;
+            margin-right: 20px;
+            font-family:cursive;
+        }
+        .image img{
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            height: 150px;
+        }
+        .heading{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .des{
+            text-align: center;
+        }
+       .button{
+           display: inline-block;
+            text-decoration: none;
+            margin:10px;
+            background-color:red;
+            padding: 5px;
+            border-radius: 10px;
+            width: 95%;
+            color: white;
+            border-color: white;
+            
+        }
+        .button:hover{
+            text-decoration: none;
+            background-color:rgb(13, 13, 223);
+            color: white;
+            transition: .3s;
+            display: inline-block;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body bgcolor="#d3d3d3">
+    <h2 style="color: white; font-family: cursive;margin: 15px; text-align: center;">PRACTICAL-6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h2>
+    <div class="main">
+    <!--Card-1-->
+    <div class="card">
+        <div class="image">
+            <img src="./html template.png" alt="HTML">
+        </div>
+        <div class="heading">
+            <h2>Introduction to HTML</h2>
+        </div>
+        <div class="des">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. ipsum dolor sit amet. Ipsa explicabo mollitia iusto, assumenda sunt iste laborum expedita minima placeat nihil, voluptas quasi facilis adipisci hic.</p>
+                <a href="./HTML.htm" class="button">Read More</a>
+        </div>
+    </div>
+
+     <!--Card-2-->
+     <div class="card">
+        <div class="image">
+            <img src="./css template.png" alt="CSS">
+        </div>
+        <div class="heading">
+            <h2>Introduction to CSS</h2>
+        </div>
+        <div class="des">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet. ipsum dolor sit amet. Commodi obcaecati itaque saepe aspernatur repellendus quaerat ipsam consectetur cum voluptate officiis?Lorem ipsum dolor sit amet.</p>
+                <a href="./CSS.html" class="button">Read More</a>
+        </div>
+    </div>
+
+    <!--Card-3-->
+    <div class="card">
+        <div class="image">
+            <img src="./javascript template.png" alt="JS">
+        </div>
+        <div class="heading">
+            <h2>Introduction to JavaScript</h2>
+        </div>
+        <div class="des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, facere accusantium. Lorem ipsum dolor sit amet. Possimus molestiae delectus aliquam. Deserunt debitis dicta soluta eligendi numquam modi quibusdam magnam ipsa.
+                    <a href="./javascript.html" class="button">Read More</a>
+        </div>
+    </div>
+
+    <!--Card-4-->
+    <div class="card">
+        <div class="image">
+            <img src="./bootsrap template.png" alt="Bootsrap">
+        </div>
+        <div class="heading">
+            <h2>Introduction to Bootstrap</h2>
+        </div>
+        <div class="des">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Voluptatibus voluptatum mollitia fugit laudantium quisquam vero facilis deleniti labore id ea Lorem ipsum dolor sit amet.</p>
+                <a href="./boot_strap.html" class="button">Read More</a>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+</html>
